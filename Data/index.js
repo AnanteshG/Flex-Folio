@@ -1,40 +1,35 @@
 const Technology = [
   {
     id: 1,
-    name: "React",
-    icon: "",
+    name: "HTML/CSS",
   },
   {
     id: 2,
-    name: "React Native",
+    name: "React.js",
   },
   {
     id: 3,
-    name: "Firebase",
+    name: "Next.js",
   },
   {
     id: 4,
-    name: "Angular",
+    name: "Flutter",
   },
   {
     id: 5,
-    name: "Tailwind Css",
-  },
-  {
-    id: 6,
-    name: "Next Js",
-  },
-  {
-    id: 7,
-    name: "Expo",
-  },
-  {
-    id: 8,
     name: "Python",
   },
   {
-    id: 9,
-    name: "Other",
+    id: 6,
+    name: "MERN Stack",
+  },
+  {
+    id: 7,
+    name: "Machine Learning",
+  },
+  {
+    id: 8,
+    name: "Firebase",
   },
 ];
 

@@ -67,3 +67,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+  font-family: "PF-reminder";
+  src: url("/fonts/PF-reminder.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.font-pf-reminder {
+  font-family: "PF-reminder", sans-serif;
+}
