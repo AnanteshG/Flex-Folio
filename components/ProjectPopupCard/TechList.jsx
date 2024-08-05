@@ -6,9 +6,10 @@ function TechList() {
     const { project } = useContext(SelectedProjectContent);
 
     // Utility functions for URL validation
-    const isValidGitHubURL = (url) => url.startsWith('https://github.com/');
-    const isValidLinkedInURL = (url) => url.startsWith('https://linkedin.com/');
-    const isValidInstagramURL = (url) => url.startsWith('https://instagram.com/');
+    const isValidGitHubURL = (url) => url.startsWith('https://github.com/') || url.startsWith('https://www.github.com/')
+    const isValidLinkedInURL = (url) => url.startsWith('https://linkedin.com/') || url.startsWith('https://www.linkedin.com/');
+    const isValidInstagramURL = (url) => url.startsWith('https://instagram.com/') || url.startsWith('https://www.instagram.com/');
+
 
     return (
         <div className='mt-10 p-5'>
