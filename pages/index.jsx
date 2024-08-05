@@ -7,7 +7,7 @@ import ProjectList from '@/components/Profile/ProjectList';
 
 const metadata = {
     title: "Flex-Folio",
-    description: "A Next.js application with authentication using NextAuth",
+    description: "Share your projects with the world and find new project ideas.",
     keywords: "Next.js, NextAuth, React, Authentication",
     author: "Anantesh G",
 };
