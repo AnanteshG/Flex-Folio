@@ -8,7 +8,7 @@ const ProjectInfo = () => {
     return (
         <div>
             <div>
-                <h2 className='font-medium text-[18px] mb-3'>{project.title}</h2>
+                <h2 className='font-medium text-[18px] mt-[30px]'>{project.title}</h2>
                 <Image src={project.image} alt={project.title}
                     width={500} height={200} className='rounded-lg cursor-pointer'
                     onClick={() => window.open(project.image)} />
