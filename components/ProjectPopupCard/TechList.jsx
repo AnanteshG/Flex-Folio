@@ -23,11 +23,11 @@ function TechList() {
                     <p>No technologies listed</p>
                 )}
             </div>
-            <div className='w-[500px]'>
+            <div className='max-w-[500px]'>
                 <h2 className='font-bold mt-6'>Links</h2>
                 {project['app-demo-url'] && (
                     <h2
-                        className='font-light mt-4 cursor-pointer flex items-center gap-2 overflow-hidden whitespace-nowrap text-ellipsis'
+                        className='font-light mt-4 cursor-pointer flex items-center gap-2 text-ellipsis'
                         onClick={() => window.open(project['app-demo-url'])}
                     >
                         <Image src='/images/link.png' width={20} height={20} alt='icon' className='w-[20px]' />
@@ -36,7 +36,7 @@ function TechList() {
                 )}
                 {project['github-url'] && isValidGitHubURL(project['github-url']) && (
                     <h2
-                        className='font-light mt-4 cursor-pointer flex items-center gap-2 overflow-hidden whitespace-nowrap text-ellipsis'
+                        className='font-light mt-4 cursor-pointer flex items-center gap-2 text-ellipsis'
                         onClick={() => window.open(project['github-url'])}
                     >
                         <Image src='/images/github.png' width={20} height={20} alt='icon' className='w-[20px]' />
@@ -45,7 +45,7 @@ function TechList() {
                 )}
                 {project['linkedin-url'] && isValidLinkedInURL(project['linkedin-url']) && (
                     <h2
-                        className='font-light max-w-[75ch] flex items-center gap-2 mt-4 cursor-pointer overflow-hidden whitespace-nowrap text-ellipsis'
+                        className='font-light max-w-[75ch] flex items-center gap-2 mt-4 cursor-pointer text-ellipsis'
                         onClick={() => window.open(project['linkedin-url'])}
                     >
                         <Image src='/images/linkedin.png' width={20} height={20} alt='icon' className='w-[20px]' />
@@ -54,7 +54,7 @@ function TechList() {
                 )}
                 {project['instagram'] && isValidInstagramURL(project['instagram']) && (
                     <h2
-                        className='font-light flex items-center gap-2 mt-4 cursor-pointer overflow-hidden whitespace-nowrap text-ellipsis'
+                        className='font-light flex items-center gap-2 mt-4 cursor-pointer text-ellipsis'
                         onClick={() => window.open(project['instagram'])}
                     >
                         <Image src='/images/insta.png' width={20} height={20} alt='icon' className='w-[20px]' />
